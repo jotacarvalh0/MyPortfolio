@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    font-family: 'Inter var', sans-serif;
+    background-color: #E4F0F0;
+}
+
+header{
+    height: 70px;
+    display: flex;
+    background-color: #122F46;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 24px 50% 23px 150px;
+}
+
+.menu{
+    margin: 24px 153px;
+
+}
+
+.logo_dev {
+    color: #ffffff;
+}
+
+section a {
+    text-decoration: none;
+    color: #98E2FC;
+    font-style: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 28px;
+}

@@ -1,0 +1,23 @@
+body{
+    font-family: 'Inter';
+    margin: 0px auto;
+}
+
+.container{
+    width: 1200px; /* Largura */
+    margin: 0px auto; /* 0px para cima e automatico nas laterais */
+}
+
+.flex{
+    display: flex;
+    flex-direction: row; /* Direção dos box na horizontal */
+}
+
+.logo{
+    background-color: #122F46;
+}
+
+.menu{
+    float: left;
+    background-color: #122F46;
+}
